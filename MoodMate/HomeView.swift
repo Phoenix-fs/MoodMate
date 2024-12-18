@@ -28,6 +28,8 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
+                
+                
                 // Top Content: Display Logs or Insights
                 if selectedTab == .mood {
                     MoodScreen(moodLogs: moodLogs)
